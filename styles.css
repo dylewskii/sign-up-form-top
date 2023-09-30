@@ -88,6 +88,12 @@ table {
     align-items: center;
 }
 
+#newsparta-logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 15px;
+}
+
 .img-banner > h1 {
     color: var(--img-header-color);
     font-family: var(--main-font);
