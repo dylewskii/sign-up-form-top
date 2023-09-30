@@ -7,56 +7,59 @@
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <section class="img-section">
-        <img src="assets/images/plants-img.jpg" alt="plant image">
-    </section>
-
-    <section class="form-section">
-        <div class="form-header">
-            <h1>Sign Up to join our team</h1>
-        </div>
-        <fieldset>
-            <caption>Are you ready?</caption>
-            <form action="#" method="post">
-
-                <div class="first-name-container">
-                    <label for="first_name">FIRST NAME </label>
-                    <input type="text" id="first_name" placeholder="Enter a first name">
+    <div class="main-container">
+        <section class="img-section">
+            <img src="assets/images/plants-img.jpg" alt="plant image" id="img">
+        </section>
+    
+        <section class="form-section">
+            <div class="form-box">
+                <div class="form-header">
+                    <h1>Sign Up to join our team</h1>
                 </div>
+                <fieldset>
+                    <caption>Are you ready?</caption>
+                    <form action="#" method="post">
 
-                <div class="last-name-container">
-                    <label for="last_name">LAST NAME </label>
-                    <input type="text" id="last_name" placeholder="Enter a last name">
-                </div>
+                        <div class="first-name-container">
+                            <label for="first_name">FIRST NAME </label>
+                            <input type="text" id="first_name" placeholder="Enter a first name">
+                        </div>
 
-                <div class="email-container">
-                    <label for="user_email">EMAIL ADDRESS </label>
-                    <input type="email" id="user_email" name="email" placeholder="you@example.com">
-                </div>
+                        <div class="last-name-container">
+                            <label for="last_name">LAST NAME </label>
+                            <input type="text" id="last_name" placeholder="Enter a last name">
+                        </div>
 
-                <div class="tel-container">
-                    <label for="tel_number">PHONE NUMBER </label>
-                    <input type="tel" id="tel_number" name="tel" placeholder="07812345678">
-                </div>
+                        <div class="email-container">
+                            <label for="user_email">EMAIL ADDRESS </label>
+                            <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                        </div>
+
+                        <div class="tel-container">
+                            <label for="tel_number">PHONE NUMBER </label>
+                            <input type="tel" id="tel_number" name="tel" placeholder="07812345678">
+                        </div>
 
 
-                <div class="password-container">
-                    <label for="password">PASSWORD </label>
-                    <input type="password" id="password" name="password">
+                        <div class="password-container">
+                            <label for="password">PASSWORD </label>
+                            <input type="password" id="password" name="password">
 
-                    <label for="password">CONFIRM PASSWORD </label>
-                    <input type="password" id="password" name="password">
-                </div>
+                            <label for="password">CONFIRM PASSWORD </label>
+                            <input type="password" id="password" name="password">
+                        </div>
 
-            </form>
+                    </form>
 
-            <div>
-                <button>Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+                    <div>
+                        <button>Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </fieldset>
             </div>
-
-        </fieldset>
-    </section>
+        </section>
+    </div>
     
 </body>
 </html>
