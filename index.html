@@ -24,43 +24,38 @@
             </div>
             <div class="form-box">
                 <fieldset>
-                    <caption>Are you ready?</caption>
-                    <form action="#" method="post">
-
-                        <div class="first-name-container">
-                            <label for="first_name">FIRST NAME </label>
-                            <input type="text" id="first_name" placeholder="">
-                        </div>
-
-                        <div class="last-name-container">
-                            <label for="last_name">LAST NAME </label>
-                            <input type="text" id="last_name" placeholder="">
-                        </div>
-
-                        <div class="email-container">
-                            <label for="user_email">EMAIL ADDRESS </label>
-                            <input type="email" id="user_email" name="email" placeholder="you@example.com">
-                        </div>
-
-                        <div class="tel-container">
-                            <label for="tel_number">PHONE NUMBER </label>
-                            <input type="tel" id="tel_number" name="tel" placeholder="07812345678">
-                        </div>
-
-
-                        <div class="password-container">
-                            <label for="password">PASSWORD </label>
-                            <input type="password" id="password" name="password">
-
-                            <label for="password">CONFIRM PASSWORD </label>
-                            <input type="password" id="password" name="password">
-                        </div>
-
-                    </form>
+                  <legend>Are you ready?</legend>
+                  <form action="#" method="post" class="grid-container">
+                    <div class="gi gi1">
+                      <label for="first_name">FIRST NAME</label>
+                      <input type="text" id="first_name" placeholder="">
+                    </div>
+                    <div class="gi gi2">
+                      <label for="last_name">LAST NAME</label>
+                      <input type="text" id="last_name" placeholder="">
+                    </div>
+                    <div class="gi gi3">
+                      <label for="user_email">EMAIL ADDRESS</label>
+                      <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                    </div>
+                    <div class="gi gi4">
+                      <label for="tel_number">PHONE NUMBER</label>
+                      <input type="tel" id="tel_number" name="tel" placeholder="07812345678" minlength="11" maxlength="13">
+                    </div>
+                    <div class="gi gi5">
+                      <label for="password">PASSWORD</label>
+                      <input type="password" id="password" name="password">
+                    </div>
+                    <div class="gi gi6">
+                      <label for="confirm_password">CONFIRM PASSWORD</label>
+                      <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                  </form>
                 </fieldset>
-            </div>
+              </div>
+              
             <div class="confirm-container">
-                <button>Create Account</button>
+                <button><span>Create Account</span></button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </section>

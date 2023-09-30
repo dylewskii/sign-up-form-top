@@ -106,37 +106,55 @@ table {
 
 .form-header {
     background-color: var(--form-secondary-color);
+    font-family: var(--secondary-font);
     padding: 30px;
+    font-size: 25px;
+    width: 65%;
 }
 
-.form-header > h2 {
+legend {
     font-size: 20px;
-    font-weight: 600;
-    font-family: var(--secondary-font);
+    margin-bottom: 20px;
 }
 
 .form-box {
-    display: flex;
-    flex-direction: column;
+    background-color: white;
     font-family: var(--secondary-font);
     height: 25%;
     padding: 30px;
-    background-color: white;
-    /* border: 10px 20px #DCDDDD; */
     box-shadow: 5px 5px 10px 0px #DBDCDD;
-    line-height: 1.5;
 }
 
-caption {
-    font-size: 50px;
+.grid-container {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+}
+
+.gi {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.grid-container > .gi > label {
+    font-size: 10px;
+    margin: 0 0 3px 2px;
 }
 
 input {
     --webkit-appearance: none;
-    /* background-color: red; */
     border: 1px solid #DBDCDD;
     border-radius: 5px;
     width: 150px;
+    padding: 4px 8px;
+    /* margin: 0 10px 10px 0; */
+}
+
+input:focus {
+    border: 0.5 solid red;
 }
 
 .confirm-container {
@@ -144,7 +162,7 @@ input {
     margin: 30px 30px;
 }
 
-/* Buttons */
+/* Buttons & Links */
 
 button {
     background-color: var(--element-color);
@@ -154,6 +172,36 @@ button {
     box-shadow: 5px 5px 10px 0px #DBDCDD;
     padding: 13px 45px;
     margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+button:hover span {
+    padding-right: 25px;
+}
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
 }
 
 a {
