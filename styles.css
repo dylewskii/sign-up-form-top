@@ -155,10 +155,6 @@ input {
     /* margin: 0 10px 10px 0; */
 }
 
-input:focus {
-    border: 0.5 solid red;
-}
-
 .confirm-container {
     font-family: var(--secondary-font);
     margin: 30px 30px;
@@ -213,4 +209,4 @@ a {
 }
 
 /* Media Queries */
-@media (max-width: )
+/* @media (max-width: ) */
