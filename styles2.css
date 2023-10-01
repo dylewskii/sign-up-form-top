@@ -1,5 +1,4 @@
 /* CSS Reset */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,14 +50,14 @@ table {
     src: url(/assets/fonts/Norse-Bold.otf);
 }
 
+/* Main */
+
 body {
     background-image: url('assets/images/new_sparta_img2.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-/* Main Container */
 
 .main-container {
     display: flex;
@@ -74,6 +73,8 @@ body {
     font-size: 6rem;
     color: white;
 }
+
+/* Media Queries */
 
 @media (max-width: 1000px){
     .welcome-container {
