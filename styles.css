@@ -154,9 +154,15 @@ input {
     /* margin: 0 10px 10px 0; */
 }
 
+#validation-message {
+    font-size: 0.75rem;
+    color: #fe9642;
+}
+  
 .confirm-container {
     font-family: var(--secondary-font);
     margin: 30px 30px;
+    align-self: flex-start;
 }
 
 /* Buttons & Links */
