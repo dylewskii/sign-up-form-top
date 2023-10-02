@@ -44,21 +44,20 @@ table {
 	border-spacing: 0;
 }
 
+/* Fonts */
+@font-face {
+    font-family: "Norse-Bold";
+    src: url('assets/fonts/Norse-Bold.otf');
+}
+
 :root {
     --img-header-color: white;
     --form-main-color: white;
     --form-secondary-color: #F9FAFB;
     --element-color: #596C48;
-    --main-font: "norse";
+    --main-font: 'Norse-Bold';
     --secondary-font: 'Lato', sans-serif;
 }
-
-/* Fonts */
-@font-face {
-    font-family: "norse";
-    src: url(assets/fonts/Norse-Bold.otf);
-}
-
 
 /* Main Container */
 .main-container {
